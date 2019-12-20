@@ -1,0 +1,17 @@
+.Form {
+  display: flex;
+  flex: 1;
+  align-self: center;
+  height: 2.5em;
+  position: relative;
+
+  .Icon {
+    position: absolute;
+    color: #0e1d25;
+    top: 0.2em;
+  }
+
+  .Input {
+    margin-left: 2em;
+  }
+}
