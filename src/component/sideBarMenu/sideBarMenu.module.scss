@@ -1,0 +1,46 @@
+.sideBarContainer {
+    display: flex;
+    flex-flow: column wrap;
+    color: #647787;
+    max-width: 18%;
+
+    h4{
+        font-size: .9em;
+        font-weight: 400;
+        line-height:0;
+        padding: 1em;
+    }
+    ul {
+        list-style-type: none;
+        li {
+            font-size: .8em;
+            line-height: 2;
+            margin-left: -2em;
+            display: flex;
+            cursor: pointer;
+            
+        }
+    }
+    .active {
+        display: flex;
+        font-size: .8em;
+        padding-top: .6em;
+        padding-left: 1em;
+        border-left: 5px solid #1875F0;
+        line-height: 2;
+         background:rgba(108, 183, 236, 0.45);
+         cursor: pointer;
+
+    }
+
+    .icons {
+       margin-right: .7em;
+    }
+    .lastParagraph {
+        font-size: .8em;
+        display: flex;
+        line-height: 2;
+        cursor: pointer;
+        padding: 1em;
+    }
+}
