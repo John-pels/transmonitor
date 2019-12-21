@@ -2,13 +2,12 @@
     display: flex;
     flex-flow: column wrap;
     color: #647787;
-    max-width: 18%;
 
     h4{
         font-size: .9em;
         font-weight: 400;
         line-height:0;
-        padding: 1em;
+        margin-left: 1em;
     }
     ul {
         list-style-type: none;
@@ -41,6 +40,6 @@
         display: flex;
         line-height: 2;
         cursor: pointer;
-        padding: 1em;
+        margin-left: 1em;
     }
 }

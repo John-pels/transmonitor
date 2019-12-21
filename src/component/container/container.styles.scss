@@ -6,22 +6,23 @@
         
     }
     .box1 {
-    max-width: 22%;
+    max-width: 18%;
     height: 100vh;
     border: 2px solid green;
     }
     .box2 {
+        padding: .4em 1.5em .3em .6em;
         background: #E5E5E5;
 
         .box2__topChart{
             display: flex;
             flex-wrap: wrap;
-            border: 2px solid blue;
+           
             .topChart--items{
                 background: #FFF;
                 margin: .5em;
                 flex: 1;
-                 border: 2px solid yellowgreen;
+               
             }
         }
 
