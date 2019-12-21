@@ -2,6 +2,7 @@ import React from "react";
 import SideBarMenu from "../sideBarMenu";
 import Button from "../button";
 import TransactionBox from "../transaction";
+import TrackRecord from "../trackRecord";
 import "./container.styles.scss";
 
 const MainContainer = () => {
@@ -46,7 +47,18 @@ const MainContainer = () => {
             quisquam commodi?
           </div>
           <div className="chart__items right-record">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minus
+            <TrackRecord
+              heading="Orders"
+              textOne="Pending Orders:"
+              textTwo="Reconcilled Orders:"
+              textThree="Total Orders:"
+            />
+            <TrackRecord
+              heading="Payments"
+              textOne="Un-reconcilled Payments:"
+              textTwo="Reconcilled Payments:"
+              textThree="Total Payments:"
+            />
           </div>
         </div>
         <h2>Payments</h2>

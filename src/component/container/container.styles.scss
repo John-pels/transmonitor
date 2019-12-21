@@ -22,17 +22,20 @@
                 background: #FFF;
                 margin: .5em;
                 flex: 1;
-               
             }
         }
 
         .chart {
             display: flex;
-            border: 2px solid orange;
+            margin-right: .5em;
+            margin-left: .4em;
+            background: #FFF;
+
+            // border: 2px solid orange;
 
             .chart__items {
                 flex: 1;
-            border: 2px solid rgb(46, 30, 1);
+            // border: 2px solid rgb(46, 30, 1);
 
             }
             .chart--area {
@@ -42,6 +45,7 @@
 
             .right-record {
             max-width: 30%;
+            padding-left: 1em;
             border: 2px solid rgb(20, 247, 197);
 
             }
