@@ -13,7 +13,7 @@ const Header = () => (
     <div className={classes.flexEndItems}>
       <span className={classes.Link}>Support</span>
       <span className={classes.Link}>FAQ</span>
-      <Badge badgeContent={4} color={"primary"}>
+      <Badge badgeContent={8} color={"primary"}>
         <NotificationsNoneIcon className={classes.Link} />
       </Badge>
       <span className={classes.name}>

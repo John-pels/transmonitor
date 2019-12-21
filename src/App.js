@@ -1,16 +1,17 @@
 import React from "react";
 import Header from "./component/header";
 import MainContainer from "./component/container";
-import TransactionBox from "./component/transaction";
-
+import TrackRecord from "./component/trackRecord";
 function App() {
   return (
     <div className="App">
       <Header />
       <MainContainer />
-      <TransactionBox
-        transaction="Daily Transaction Volume"
-        figure="₦4,000,000"
+      <TrackRecord
+        heading="Payments"
+        textOne="Un-reconcilled Payments"
+        textTwo="reconcilled Payments"
+        textThree="Total payments"
       />
     </div>
   );
