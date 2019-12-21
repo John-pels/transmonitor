@@ -1,0 +1,17 @@
+button {
+  width: 12em;
+  height: 2.3em;
+  background: #27ae60;
+  border-radius: 3em;
+  font-size: em;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;  
+  
+}
+button:hover {
+  background: #108a42;
+  transition: background .8s ease-in-out;
+
+}
