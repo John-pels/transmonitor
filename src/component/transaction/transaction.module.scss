@@ -1,0 +1,23 @@
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 25%;
+  .wrapItems {
+    margin: 0.7em;
+
+    h4 {
+      line-height: 0.1;
+      color: #787c90;
+    }
+
+    p {
+      color: #262626;
+      font-size: 1.5em;
+      line-height: 0.2;
+    }
+    img {
+      width: 5em;
+      height: 5em;
+    }
+  }
+}
