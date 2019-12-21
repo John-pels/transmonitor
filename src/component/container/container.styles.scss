@@ -29,25 +29,22 @@
             display: flex;
             margin-right: .5em;
             margin-left: .4em;
-            background: #FFF;
-
             // border: 2px solid orange;
 
             .chart__items {
-                flex: 1;
-            // border: 2px solid rgb(46, 30, 1);
+            background: #FFF;
+            flex: 1;
 
             }
             .chart--area {
-            border: 2px solid rgb(7, 31, 68);
+           
+            margin-right: .2em;
 
             }
 
             .right-record {
             max-width: 30%;
             padding-left: 1em;
-            border: 2px solid rgb(20, 247, 197);
-
             }
         }
          h2 {
