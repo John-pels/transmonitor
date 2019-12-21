@@ -6,7 +6,6 @@ const TrackRecord = ({ heading, textOne, textTwo, textThree }) => (
     <h4>{heading}</h4>
 
     <span className={classes.progressBar}></span>
-    {/* <span className={classes.progressBar2}></span> */}
     <p>
       {textOne} <span className={classes.first}>20</span>
     </p>
