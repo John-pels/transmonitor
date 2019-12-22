@@ -63,10 +63,7 @@ const MainContainer = () => {
         </div>
         <h2>Payments</h2>
         <div className="table-data">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-          error consequuntur. Nobis unde rem maxime soluta accusamus cupiditate,
-          assumenda, magnam quae quibusdam sapiente minima quam earum voluptas
-          pariatur modi in.
+  lorem  { Date()}
         </div>
       </div>
     </section>

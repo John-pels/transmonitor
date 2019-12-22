@@ -29,22 +29,17 @@
             display: flex;
             margin-right: .5em;
             margin-left: .4em;
-            // border: 2px solid orange;
-
             .chart__items {
-            background: #FFF;
             flex: 1;
 
             }
             .chart--area {
-           
-            margin-right: .2em;
-
+            background: #FFF;
             }
 
             .right-record {
             max-width: 30%;
-            padding-left: 1em;
+            padding-left: .3em;
             }
         }
          h2 {
